@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+body{
+    font-family: Barlow Condensed, sans-serif;
+}
+.burger-Section{
+    height: 100vh;
+    background-image: linear-gradient(#3e3e3e,#73281a );
+}
+.nav-bar{
+    width: 100%;
+    /* background-color: aqua; */
+    display: inline-block;
+    overflow: auto;
+    margin-top: 5px;
+    border-bottom: 1px solid #aaaaaa;
+    padding: 7px 0px;
+}
+.logo{
+    /* width: 50%; */
+    /* background-color: blueviolet; */
+    float: left;
+    width: 10%;
+}
+.logo img {
+    width: 100%;
+}
+.links{
+    /* width: 50%; */
+    /* background-color: brown; */
+    float: right;
+    margin-top: 35px;
+    font-family: Barlow Condensed, sans-serif;
+
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    /* font-weight: bold; */
+    margin-right: 30px;
+    font-size: 20px;
+
+}
+
+
+.main{
+    /* background-color: aqua; */
+    text-align: center;
+    padding-top: 60px;
+    
+}
+.main h1{
+    color: white;
+    word-spacing: 4px;
+    font-size: 60px;
+}
+.main p{
+      color: white;
+      margin-top: 15px;
+    word-spacing: 4px;
+    font-size: 20px;
+
+}
+
+
+.about-us{
+    background-image: linear-gradient(#73281a , #3e3e3e);
+    overflow: auto;
+    width: 100%;
+    padding: 30px;
+    color: white;
+    
+}
+
+.about-us img{
+    float: right;
+    width: 50%;
+border-radius: 20px;
+}
+
+.about-us .left-part{
+    /* background-color: aqua; */
+    float: left;
+    width: 45%;
+    text-align: center;
+}
+
+.about-us h2{
+    padding-top: 50px;
+    padding-bottom: 10px;
+
+    word-spacing: 4px;
+    font-size: 60px;
+}
+.about-us .p1{
+    margin-bottom: 25px;
+    word-spacing: 4px;
+    font-size: 20px;
+}
+.about-us .p2{
+    margin-bottom: 20px;
+    line-height: 2;
+    text-align: left;
+    word-spacing: 4px;
+}
+
+.spantemp {
+    background-color: #ff894f;
+    color: black;
+    /* font-weight: bold; */
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+
+
+
+.book-now{
+    background-color: #73281a;
+    text-align: center;
+    
+}
+.book-now label , .book-now input{
+    display: block;
+}
+
+
+.clearfix{
+    clear: both;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.menu{
+    overflow: auto;
+}
+
+
+.burger{
+    width: 50%;
+    padding: 20px;
+}
+
+#Menu {
+    padding: 30px 0px;
+     background-image: linear-gradient(#3e3e3e,#73281a );
+}
+#Menu h2{
+    font-size: 50px;
+color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.menu .burger img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+}
+.menu .burger h3 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 30px;
+    color: white;
+}
+
+.menu .burger ul {
+        list-style: square;
+        padding-left: 20px;
+        text-align: left;
+       
+    }
+    .menu .burger ul li{
+        width: 25%;
+        color: white;
+    }
+
+
+
+
+
+    #BookNow{
+        text-align: center;
+        background-image: linear-gradient(#73281a , #3e3e3e);
+    }
+
+    #BookNow h2 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: white;
+    padding-top: 50px;
+}
+    
+    .input input , .input label{
+        display: block;
+    }
+ 
+    .input{
+        width: 40%;
+        margin: auto;
+    }
+    .input input{
+        width: 100%;
+        height: 40px;
+    }
+    .input input{
+
+        margin: auto;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    }
+    .input label{
+        margin-bottom: 10px;
+        color: white;
+        text-align: left;
+    }
+
+
+    .input textarea{
+        width: 100%;
+        height: 150px;
+        resize: none;
+        border-radius: 7px;
+
+    }
+
+    .btn{
+        width: 100%;
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        margin: 30px 0px;
+        padding: 10px 0px;
+        font-size: 30px;
+        border-radius: 10px;
+    } 
+
+
+    .mapsec{
+        background-image: linear-gradient( #3e3e3e ,#73281a);
+        text-align: center;
+        overflow: auto;
+    }
+    .map{
+        width: 45%;
+        /* border-radius: 20%; */
+        border: 20px solid black ;
+        
+        
+        clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+        
+    }
+    
+    .just-to-left{
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+   
+
+.footer{
+    background-image: linear-gradient( #73281a ,  #3e3e3e );
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    height: 60px;
+
+}
+.footer p {
+background-image: linear-gradient( #bc412c ,  #e7dfdf );
+    color: transparent;
+    background-clip: text;
+    font-weight: bold;
+    
+}
